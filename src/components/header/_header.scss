@@ -1,5 +1,6 @@
 .header {
     width: 100%;
+    background: linear-gradient(to right, green, green, yellow, green, green);
     &-content {
         height: 120px;
         display: flex;
@@ -14,7 +15,19 @@
         align-items: center;
         justify-content: space-between;
         &-item {
-            margin-right: 10px;
+            margin-right: 35px;
+
+            a {
+              color: black;
+              font-size: 20px;
+              font-weight: bold;
+
+              &:hover {
+                font-size: 25px;
+                color: purple;
+                text-decoration: none;
+              }
+            }
         }
     }
 }

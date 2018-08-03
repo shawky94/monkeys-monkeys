@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Icon from '../icon';
+import Monkey from '../icon/monkey.icon';
+
 import './_header.scss';
 
 const Header = () =>
@@ -8,16 +11,25 @@ const Header = () =>
       <div className="row">
         <div className="col-12">
           <div className="header-content">
-            <span className="header-logo">
-              Gatsby React Boilerplate
-            </span>
             <nav className="header-nav">
               <ul className="header-nav-list">
                 <li className="header-nav-list-item">
-                  <a href="#features">Features</a>
+                  <Icon icon={Monkey} width={94} height={94} fill={'#fff'} />
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">How To</a>
+                  <a href="#features">Home</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="#howto">Projects</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="#howto">Anouncments</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="#howto">Schedule</a>
+                </li>
+                <li className="header-nav-list-item">
+                  <a href="#howto">Blog</a>
                 </li>
               </ul>
             </nav>
