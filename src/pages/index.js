@@ -13,10 +13,10 @@ const IndexPage = props =>
   (<div style={{ backgroundImage: `url(${img})`,backgroundRepeat  : 'no-repeat', backgroundSize: '100% 100%' }}>
 
     <main>
-    <Rules/>
     <Carousel/>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
-    <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
+
+    <Rules/>
+
   </main>
 </div>);
 

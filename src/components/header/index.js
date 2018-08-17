@@ -17,19 +17,19 @@ const Header = () =>
                   <Icon icon={Monkey} width={94} height={94} fill={'#fff'} />
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#features">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">Projects</a>
+                  <a href="/project">Projects</a>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">Anouncments</a>
+                  <a href="/announcment">Anouncments</a>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">Schedule</a>
+                  <a href="/schedule">Schedule</a>
                 </li>
                 <li className="header-nav-list-item">
-                  <a href="#howto">Blog</a>
+                  <a href="/blog">Blog</a>
                 </li>
               </ul>
             </nav>

@@ -4,9 +4,19 @@
   margin-left:  10%;
   margin-right:  10%;
   color: white;
+  padding-bottom: 30px;
+
+  &-title {
+    margin-bottom: 40px;
+
+    font-weight: bold;
+    color: yellow
+  }
 
   &-card {
     background-color: grey;
+    border: 5px yellow solid;
+    box-shadow: 5px 10px green;
 
     flex-grow: 1;
     margin-left: 20px;

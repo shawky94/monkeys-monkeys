@@ -31,8 +31,8 @@ class SimpleSlider extends React.Component {
     };
     return (
       <section className="carousel" id="carousel">
-      <h2>
-        about our team
+      <h2 className="carousel-title">
+        Who are we?
       </h2>
       <br/>
       <div className="container-fluid">

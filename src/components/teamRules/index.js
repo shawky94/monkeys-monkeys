@@ -14,7 +14,7 @@ const NewsListing = props =>
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <h4 className="rules-title">Team Rules</h4>
+          <h2 className="rules-title">Team ethics</h2>
         </div>
       </div>
       <div className="row">
@@ -25,7 +25,7 @@ const NewsListing = props =>
               <img src={NoTalk} />
             </div>
             <div className="rules-card-text">
-              "Never Talk in bad way to each other"
+              " Never Talk in bad way to each other "
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const NewsListing = props =>
               <img src={NoSee} />
             </div>
             <div className="rules-card-text">
-              "Never see the  each other's fault"
+              "Never see the  each other's faults"
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const NewsListing = props =>
               <img src={NoHear} />
             </div>
             <div className="rules-card-text">
-              "Never listen to evil sound in side us :D"
+              " Never listen to evil sounds in side us :D "
             </div>
           </div>
         </div>
