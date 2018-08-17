@@ -7,7 +7,7 @@ import Carousel from '../components/carousel';
 import Rules from '../components/teamRules';
 
 
-var img = "http://worldofdtcmarketing.com/wp-content/uploads/2015/04/jungle-forest.jpg"
+var img = "https://wallpaper.wiki/wp-content/uploads/2017/05/Jungle-HD-Wallpaper.jpeg"
 
 const IndexPage = props =>
   (<div style={{ backgroundImage: `url(${img})`,backgroundRepeat  : 'no-repeat', backgroundSize: '100% 100%' }}>
