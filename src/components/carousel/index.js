@@ -45,7 +45,7 @@ class SimpleSlider extends React.Component {
                   <img  style={{height: Constants.CAROUSEL_HEIGHT, width:'100%'}} src="https://prototype-interactive.imgix.net/images/team/divya.jpg?w=393&q=60&auto=format" />
                 </div>
                 <div>
-                  <Table name={"Divia"} role={"Account Manager"}></Table>
+                  <Table name={"Divya"} role={"Account Manager"}></Table>
                 </div>
                 <div>
                   <img style={{height: Constants.CAROUSEL_HEIGHT, width:'100%'}} src ="https://prototype-interactive.imgix.net/images/team/manal.jpg?w=393&q=60&auto=format" />
